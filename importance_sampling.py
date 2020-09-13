@@ -19,7 +19,7 @@ L = 1000  # サンプル数
 dim = 2  # 次元数
 param_proposal = (2.0, 2.0)  # proposal distributionの平均と標準偏差
 param_target = (1.0, 1.0)  # targetr distributionの平均と標準偏差
-f = lambda x: np.sum(x ** 2 + 2 * x + 1, axis=-1)  # 平均値を取る対象の関数
+f = lambda x: np.sum(x ** 2 + 2 * x + 1, axis=-1)  # 期待値を取る対象の関数
 
 
 def main():
